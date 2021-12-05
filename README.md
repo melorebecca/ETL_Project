@@ -1,8 +1,6 @@
 # ETL_Project
 __Rebecca Melo__
-
 December 5th, 2021
-
 Emerson College Bootcamp, Data Analytics
 
 <h1> Project 2: ETL </h1>
@@ -10,7 +8,6 @@ Emerson College Bootcamp, Data Analytics
 
 Using ETL to take these 2 datasets and create tables in pgAdmin to compare daily vehicle travel during the pandemic vs. accidents in US, specifically in the states of  MA and NM. 
 
-_____________________________________________________________________________________________
 
 <h2>Extract:</h2> 
 Extracted data from 2 csv files
