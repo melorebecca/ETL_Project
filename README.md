@@ -8,7 +8,7 @@ Emerson College Bootcamp, Data Analytics
 <h1> Project 2: ETL </h1>
 <h2> Daily Vehicle Travel During the COVID-19 Public Health Emergency vs. Accidents in the US </h2>
 
-This 
+Using ETL to take these 2 datasets and create tables in pgAdmin to compare daily vehicle travel during the pandemic vs. accidents in US, specifically in the states of  MA and NM. 
 
 _____________________________________________________________________________________________
 
@@ -19,7 +19,6 @@ Data Sources:
 - Trips_by_Distnace.csv - Bureau of Transportation Statistics
 - US_Accidents_Dec20_updated.csv - Kaggle.com
 
-_____________________________________________________________________________________________
 
 <h2>Transform:</h2>
 Created 16 tables from both csv files. 
@@ -32,7 +31,6 @@ Created 16 tables from both csv files.
 - Used .rename() to rename some colnms in the US_Accidents dataset to clarify data
 - Used .set_index() to have the ID colunm in the US_Accidents dataset to be the index. These IDs were used as primary keys.
 
-_____________________________________________________________________________________________
 
 <h2>Load:</h2>
 Loaded data into pgAdmin/PostgreSQL
