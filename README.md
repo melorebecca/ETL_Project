@@ -12,7 +12,7 @@ This
 
 _____________________________________________________________________________________________
 
-<h2>__Extract:__</h2> 
+<h2>Extract:</h2> 
 Extracted data from 2 csv files
 
 Data Sources:
@@ -21,7 +21,7 @@ Data Sources:
 
 _____________________________________________________________________________________________
 
-<h2>__Transform:__</h2>
+<h2>Transform:</h2>
 Created 16 tables from both csv files. 
 - Used .fillna() to replace null values for 0
 - Used .loc() to filter Trips_by_Distnace.csv for National level, state  level, and county  level.
@@ -34,7 +34,7 @@ Created 16 tables from both csv files.
 
 _____________________________________________________________________________________________
 
-<h2>__Load:__</h2>
+<h2>Load:</h2>
 Loaded data into pgAdmin/PostgreSQL
 
 The tables created  were as follows:
